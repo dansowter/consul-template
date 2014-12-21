@@ -1,0 +1,4 @@
+template {
+  source = "../source/example.ctmpl"
+  destination  = "../destination/example"
+}
