@@ -5,7 +5,9 @@ Take me for a spin..
 
 ```sh
 docker run -it --rm \
+  --name templater \
   -e "CONSUL_TEMPLATE_LOG=debug" \
+  -v /var/run/docker.sock:/var/run/docker.sock \
   -v $PWD/config:/config \
   -v $PWD/source:/source \
   -v $PWD/destination:/destination \

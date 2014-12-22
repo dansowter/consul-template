@@ -1,0 +1,4 @@
+FROM example-app-build-a081a96d03
+
+ENV PASSWORD pineapples
+ENV WHERE_AM_I prod

@@ -1,0 +1,5 @@
+template {
+  source = "../source/app-prod-release-dockerfile.ctmpl"
+  destination  = "../destination/app-prod-release-dockerfile"
+  command = "../command/app-prod-release-dockerfile.sh || true"
+}

@@ -1,0 +1,5 @@
+FROM {{key "app/prod/BUILD_IMAGE"}}
+ADD Dockerfile /Dockerfile
+
+ENV PASSWORD {{key "app/prod/PASSWORD"}}
+ENV WHERE_AM_I {{key "app/prod/WHERE_AM_I"}}
